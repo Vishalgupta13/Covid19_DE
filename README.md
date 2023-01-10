@@ -35,5 +35,6 @@ Use Python's Pandas library to perform any necessary transformations on the data
 In the AWS Management Console, navigate to the Amazon Redshift service.
 Use the Redshift Data Transfer task to load the transformed data from S3 into Redshift.
 Optionally use Redshift Spectrum to query the data in S3 without loading it into Redshift.
-Note
+
+--Note
 You can also use Redshift as a source for your data instead of S3 and Glue Catalog
